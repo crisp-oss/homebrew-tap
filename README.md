@@ -16,7 +16,8 @@ See more at <https://docs.brew.sh/Taps>.
 | ------------ | ------------------------------------------------------ |
 | kvrocks      | kvrocks Redis-compatible server                        |
 
-Install using `brew install --cask crisp-oss/tap/<package>`.
+- Install using `brew install --cask crisp-oss/tap/<package>`.
+- You may need to whitelist the installed binary: `xattr -d com.apple.quarantine /opt/homebrew/bin/<package>` (since we do not sign binaries)
 
 ## Release procedure
 
