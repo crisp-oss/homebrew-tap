@@ -22,6 +22,8 @@ Install using `brew install --cask crisp-oss/tap/<package>`.
 
 ### Release `kvrocks`
 
+⚠️ **This procedure is for `macos` on `aarch64` only!**
+
 ```sh
 # Install kvrocks build dependencies
 brew install git cmake autoconf automake libtool openssl
@@ -31,7 +33,6 @@ git clone https://github.com/apache/kvrocks.git
 git checkout vx.x.x
 
 # Build it locally
-# Important: on Apple Silicon macOS!
 ./x.py build
 strip ./build/kvrocks
 
