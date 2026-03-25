@@ -17,3 +17,29 @@ See more at <https://docs.brew.sh/Taps>.
 | kvrocks      | kvrocks Redis-compatible server                        |
 
 Install using `brew install --cask crisp-oss/tap/<package>`.
+
+## Release procedure
+
+### Release `kvrocks`
+
+```sh
+# Install kvrocks build dependencies
+brew install git cmake autoconf automake libtool openssl
+
+# Clone kvrocks and checkout the target version
+git clone https://github.com/apache/kvrocks.git
+git checkout vx.x.x
+
+# Build it locally
+# Important: on Apple Silicon macOS!
+./x.py build
+strip ./build/kvrocks
+
+# Finally:
+#  1. Create a Zip archive of: ./build/kvrocks
+#  2. Rename it to: kvrocks-x.x.x-macos-aarch64.zip
+#  3. Upload it to: https://github.com/crisp-oss/homebrew-tap/releases/tag/kvrocks
+#  4. Update `version` and `sha256` stanzas in: Casks/kvrocks.rb
+#       -> sha256 with: `shasum --algorithm 256 kvrocks-x.x.x-macos-aarch64.zip`
+#  5. Commit and you are done
+```
