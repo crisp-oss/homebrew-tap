@@ -55,7 +55,7 @@ cargo build --release
 
 _ℹ️ Those instructions are for the Crisp team only. Disregard them if you are just using this tap._
 
-For all projects that are built and that you with to release:
+For all projects that are built and that you wish to release:
 
 1. Sign the binary with `codesign --force --verify --verbose --sign "Developer ID Application: XXX (YYY)" ./{project}`
 2. Create a Zip archive of: `./{project}` with: `zip -r {project}-x.x.x-macos-aarch64.zip ./{project}`
