@@ -15,7 +15,7 @@ This is the repository for Crisp [Homebrew](http://brew.sh/) packages.
 | raider        | Raider affiliate dashboard                             |
 
 - Install using `brew install --cask crisp-oss/tap/<package>`.
-- You may need to whitelist the installed binary: `xattr -d com.apple.quarantine /opt/homebrew/bin/<package>` (since we do not sign binaries)
+- You may need to whitelist the installed binary: `xattr -d com.apple.quarantine /opt/homebrew/bin/<package>` (since we sign binaries, but we do not notarize them, they may trigger Gatekeeper on recent macOS systems)
 
 ## Build procedure
 
