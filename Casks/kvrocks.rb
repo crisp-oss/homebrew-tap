@@ -4,7 +4,7 @@ cask "kvrocks" do
   arch arm: "aarch64"
   platform = "macos"
 
-  sha256 arm: "4f8f504568891cc2590ca8e0df5fbcdcea151f92f5f0c66e541e01d4369046db"
+  sha256 arm: "36513660df698907be7b63f186e35442a33ef5f8a386d457ce93d5829c79e79a"
 
   url "https://github.com/crisp-oss/homebrew-tap/releases/download/kvrocks/kvrocks-#{version}-#{platform}-#{arch}.zip"
   name "kvrocks"

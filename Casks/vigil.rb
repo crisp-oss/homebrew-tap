@@ -4,7 +4,7 @@ cask "vigil" do
   arch arm: "aarch64"
   platform = "macos"
 
-  sha256 arm: "c49ad717aeba974c584fb8aea2b995ddb46737bd0ec4073608f0298b989e442d"
+  sha256 arm: "1405a8b1f063ebb62a9710cb83b536b4694771bfdc4707b776873e1451915fca"
 
   url "https://github.com/crisp-oss/homebrew-tap/releases/download/vigil/vigil-#{version}-#{platform}-#{arch}.zip"
   name "vigil"

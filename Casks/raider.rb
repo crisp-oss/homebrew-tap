@@ -4,7 +4,7 @@ cask "raider" do
   arch arm: "aarch64"
   platform = "macos"
 
-  sha256 arm: "04f5b561b4a864c962a2d866db408a98be3b709fd11d61fbeb1b6c636194a531"
+  sha256 arm: "ccc6fc820efc72f03a3099662e780b96e7c2b7928b1cb056e449edf489caf00e"
 
   url "https://github.com/crisp-oss/homebrew-tap/releases/download/raider/raider-#{version}-#{platform}-#{arch}.zip"
   name "raider"
