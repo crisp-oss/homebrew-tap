@@ -1,10 +1,10 @@
 cask "bloom" do
-  version "1.36.0"
+  version "1.37.0"
 
   arch arm: "aarch64"
   platform = "macos"
 
-  sha256 arm: "dac674c0ccaff4fd53af08d8c983057284c09e4c434f2f90803ce84c580347d2"
+  sha256 arm: "e2f89a7f36d53f52104ad2d2ba86fbb638ab00c7762086a25669f81a08cde153"
 
   url "https://github.com/crisp-oss/homebrew-tap/releases/download/bloom/bloom-#{version}-#{platform}-#{arch}.zip"
   name "bloom"
