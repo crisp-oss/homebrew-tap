@@ -12,6 +12,7 @@ This is the repository for Crisp [Homebrew](http://brew.sh/) packages.
 | bloom         | Bloom API cache server                                 |
 | constellation | Constellation Geo-DNS server                           |
 | vigil         | Vigil status page                                      |
+| githttp-fs    | Git content management database served over HTTP       |
 | raider        | Raider affiliate dashboard                             |
 
 - Install using `brew install --cask crisp-oss/tap/<package>`.
@@ -38,7 +39,7 @@ strip ./build/kvrocks
 # The binary is: ./build/kvrocks
 ```
 
-### Build `bloom`, `constellation`, `vigil` and `raider`
+### Build all Rust projects
 
 ```sh
 # Pull the target project locally
