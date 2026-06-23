@@ -8,7 +8,7 @@ cask "vigil" do
 
   url "https://github.com/crisp-oss/homebrew-tap/releases/download/vigil/vigil-#{version}-#{platform}-#{arch}.zip"
   name "vigil"
-  name "vigil"
+  name "Vigil"
   desc "Microservices Status Page. Monitors a distributed infrastructure and sends alerts (Slack, SMS, etc.)."
   homepage "https://github.com/valeriansaliou/vigil"
 

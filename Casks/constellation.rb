@@ -8,7 +8,7 @@ cask "constellation" do
 
   url "https://github.com/crisp-oss/homebrew-tap/releases/download/constellation/constellation-#{version}-#{platform}-#{arch}.zip"
   name "constellation"
-  name "constellation"
+  name "Constellation"
   desc "Pluggable authoritative DNS server. Entries can be added & removed from an HTTP REST API."
   homepage "https://github.com/valeriansaliou/constellation"
 
