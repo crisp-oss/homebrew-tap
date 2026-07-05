@@ -58,9 +58,8 @@ _ℹ️ Those instructions are for the Crisp team only. Disregard them if you ar
 
 For all projects that are built and that you wish to release:
 
-1. Sign the binary with `codesign --force --verify --verbose --sign "Developer ID Application: XXX (YYY)" ./{project}`
-2. Create a Zip archive of: `./{project}` with: `zip -r {project}-x.x.x-macos-aarch64.zip ./{project}`
-3. Upload it to: https://github.com/crisp-oss/homebrew-tap/releases/tag/{project}
-4. Update `version` and `sha256` stanzas in: `Casks/{project}.rb`
+1. Create a Zip archive of: `./{project}` with: `zip -r {project}-x.x.x-macos-aarch64.zip ./{project}`
+2. Upload it to: https://github.com/crisp-oss/homebrew-tap/releases/tag/{project}
+3. Update `version` and `sha256` stanzas in: `Casks/{project}.rb`
   * 👉 You can calculate the checksum with: `shasum --algorithm 256 {project}-x.x.x-macos-aarch64.zip`
-5. Commit and you are done
+4. Commit and you are done
