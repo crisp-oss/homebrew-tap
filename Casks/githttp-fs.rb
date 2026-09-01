@@ -1,10 +1,10 @@
 cask "githttp-fs" do
-  version "1.10.0"
+  version "1.10.1"
 
   arch arm: "aarch64"
   platform = "macos"
 
-  sha256 arm: "1073553f1802f421c39af95a718c98f7829934d8d1e2b21a641176259afe4d6e"
+  sha256 arm: "ed1f81a5ed12a06c71e81e7d6d71061ff7f538fad7e7389f2a7cf4915d93f766"
 
   url "https://github.com/crisp-oss/homebrew-tap/releases/download/githttp-fs/githttp-fs-#{version}-#{platform}-#{arch}.zip"
   name "githttp-fs"
